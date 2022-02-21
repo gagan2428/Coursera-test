@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('LunchCheck', [])
+  angular.module('LunchCheck', ['ngRoute'])
   .controller('LunchCheckController', LunchCheckController);
   LunchCheckController.$inject=["$scope"];
   function LunchCheckController($scope){
